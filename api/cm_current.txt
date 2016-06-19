@@ -948,6 +948,7 @@ package cyanogenmod.providers {
     field public static final java.lang.String KEY_MENU_ACTION = "key_menu_action";
     field public static final java.lang.String KEY_MENU_LONG_PRESS_ACTION = "key_menu_long_press_action";
     field public static final java.lang.String LOCKSCREEN_PIN_SCRAMBLE_LAYOUT = "lockscreen_scramble_pin_layout";
+    field public static final java.lang.String LOCKSCREEN_ROTATION = "lockscreen_rotation";
     field public static final java.lang.String MENU_WAKE_SCREEN = "menu_wake_screen";
     field public static final java.lang.String NAVBAR_LEFT_IN_LANDSCAPE = "navigation_bar_left";
     field public static final java.lang.String NAVIGATION_BAR_MENU_ARROW_KEYS = "navigation_bar_menu_arrow_keys";
@@ -972,7 +973,6 @@ package cyanogenmod.providers {
     field public static final java.lang.String QS_SHOW_BRIGHTNESS_SLIDER = "qs_show_brightness_slider";
     field public static final java.lang.String RECENTS_SHOW_SEARCH_BAR = "recents_show_search_bar";
     field public static final java.lang.String REVERSE_LOOKUP_PROVIDER = "reverse_lookup_provider";
-    field public static final java.lang.String LOCKSCREEN_ROTATION = "lockscreen_rotation";
     field public static final java.lang.String SHOW_ALARM_ICON = "show_alarm_icon";
     field public static final java.lang.String STATUS_BAR_AM_PM = "status_bar_am_pm";
     field public static final java.lang.String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
@@ -1058,6 +1058,7 @@ package cyanogenmod.providers {
     field public static final java.lang.String KEY_NOTIFICATIONS = "mixnmatch_notifications";
     field public static final java.lang.String KEY_OVERLAYS = "mixnmatch_overlays";
     field public static final java.lang.String KEY_RINGTONE = "mixnmatch_ringtone";
+    field public static final java.lang.String KEY_STATUSBAR_HEADERS = "mixnmatch_statusbar_headers";
     field public static final java.lang.String KEY_STATUS_BAR = "mixnmatch_status_bar";
     field public static final java.lang.String[] ROWS;
   }
@@ -1071,6 +1072,9 @@ package cyanogenmod.providers {
     field public static final android.net.Uri COMPONENTS_URI;
     field public static final java.lang.String COMPONENT_ID = "component_id";
     field public static final android.net.Uri CONTENT_URI;
+    field public static final java.lang.String HEADER_PREVIEW_1 = "headers_preview_1";
+    field public static final java.lang.String HEADER_PREVIEW_2 = "headers_preview_2";
+    field public static final java.lang.String HEADER_PREVIEW_3 = "headers_preview_3";
     field public static final java.lang.String ICON_PREVIEW_1 = "icon_preview_1";
     field public static final java.lang.String ICON_PREVIEW_2 = "icon_preview_2";
     field public static final java.lang.String ICON_PREVIEW_3 = "icon_preview_3";
@@ -1128,6 +1132,7 @@ package cyanogenmod.providers {
     field public static final java.lang.String MODIFIES_NOTIFICATIONS = "mods_notifications";
     field public static final java.lang.String MODIFIES_OVERLAYS = "mods_overlays";
     field public static final java.lang.String MODIFIES_RINGTONES = "mods_ringtones";
+    field public static final java.lang.String MODIFIES_STATUSBAR_HEADERS = "mods_statusbar_headers";
     field public static final java.lang.String MODIFIES_STATUS_BAR = "mods_status_bar";
     field public static final java.lang.String OVERLAYS_URI = "overlays_uri";
     field public static final java.lang.String PKG_NAME = "pkg_name";
@@ -1248,6 +1253,7 @@ package cyanogenmod.themes {
     method public java.lang.String getAlarmThemePackageName();
     method public java.lang.String getBootanimationThemePackageName();
     method public java.lang.String getFontThemePackageName();
+    method public java.lang.String getHeadersThemePackageName();
     method public java.lang.String getIconsThemePackageName();
     method public java.lang.String getLiveLockScreenThemePackageName();
     method public java.lang.String getLockWallpaperThemePackageName();
@@ -1276,6 +1282,7 @@ package cyanogenmod.themes {
     method public cyanogenmod.themes.ThemeChangeRequest.Builder setBootanimation(java.lang.String);
     method public cyanogenmod.themes.ThemeChangeRequest.Builder setComponent(java.lang.String, java.lang.String);
     method public cyanogenmod.themes.ThemeChangeRequest.Builder setFont(java.lang.String);
+    method public cyanogenmod.themes.ThemeChangeRequest.Builder setHeaders(java.lang.String);
     method public cyanogenmod.themes.ThemeChangeRequest.Builder setIcons(java.lang.String);
     method public cyanogenmod.themes.ThemeChangeRequest.Builder setLiveLockScreen(java.lang.String);
     method public cyanogenmod.themes.ThemeChangeRequest.Builder setLockWallpaper(java.lang.String);
