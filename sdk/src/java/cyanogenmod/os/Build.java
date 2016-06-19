@@ -28,10 +28,10 @@ public class Build {
     public static final String UNKNOWN = "unknown";
 
     /** A build ID utilized to distinguish cyanogenmod versions */
-    public static final String CYANOGENMOD_VERSION = getString("ro.cm.version");
+    public static final String CYANOGENMOD_VERSION = getString("ro.liquid.version");
 
     /** A build ID string meant for displaying to the user */
-    public static final String CYANOGENMOD_DISPLAY_VERSION = getString("ro.cm.display.version");
+    public static final String CYANOGENMOD_DISPLAY_VERSION = getString("ro.liquid.display.version");
 
     private static final SparseArray<String> sdkMap;
     static
